@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Samochody marek premium</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+        <script
+		src="https://code.jquery.com/jquery-3.6.0.js"
+		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+		crossorigin="anonymous"></script>
+    </head>
+    <body onload="Changeslide()">
+        <header>
+            <h1 class="logo">Samochody marek premium</h1>
+            <nav id="topnav">
+                <ul id="menu">
+                    <li id="start"><a href="#">Start</a></li>
+                    <li><a href="#">Ogólne informacje</a></li>
+                    <li><a href="#">Historia marek</a></li>
+                    <li><a href="#">O autorze</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <section>
+                    <div class="images"></div>
+                    <div id="buttons">
+                        <div id="button1" onclick="SetPicture(1)">&#9711;</div>
+                        <div id="button2" onclick="SetPicture(2)">&#9711;</div>
+                        <div id="button3" onclick="SetPicture(3)">&#9711;</div>
+                        <div id="button4" onclick="SetPicture(4)">&#9711;</div>
+                        <div id="button5" onclick="SetPicture(5)">&#9711;</div>
+                        <div id="button6" onclick="SetPicture(6)">&#9711;</div>
+                    </div>
+                </section>
+                <section>
+                    <div id="firstrow">
+                        <div class="CarLogo">
+                            <figure>
+                                <a href="#"><img src="img/audilogo.jpg" alt="Audi"></a>
+                                <figcaption>Audi</figcaption>
+                            </figure>
+                        </div>
+                        <div class="CarLogo">
+                            <figure>
+                                <a href="#"><img src="img/bmwlogo.jpg" alt="BMW"></a>
+                                <figcaption>BMW</figcaption>
+                            </figure>
+                        </div>
+                        <div class="CarLogo">
+                            <figure>
+                                <a href="#"><img src="img/mercedeslogo.jpg" alt="Mercedes"></a>
+                                <figcaption>Mercedes</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div id="secondrow">
+                        <div class="CarLogo">
+                            <figure>
+                                <a href="#"><img src="img/jaguarlogo.jpg" alt="Jaguar"></a>
+                                <figcaption>Jaguar</figcaption>
+                            </figure>
+                        </div>
+                        <div class="CarLogo">
+                            <figure>
+                                <a href="#"><img src="img/cupralogo.jpg" alt="Cupra"></a>
+                                <figcaption>Cupra</figcaption>
+                            </figure>
+                        </div>
+                        <div class="CarLogo">
+                            <figure>
+                                <a href="#"><img src="img/infinitilogo.jpg" alt="Infiniti"></a>
+                                <figcaption>Infiniti</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+        </main>
+        <script src="js.js"></script>
+    </body>
+</html>
