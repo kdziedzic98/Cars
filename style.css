@@ -1,0 +1,238 @@
+body
+{
+    background: url(img/tlo.jpg) no-repeat center center fixed;
+    color: #efefef;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+h1.logo
+{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 44px;
+}
+
+#topnav
+{
+    background-color:midnightblue;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    z-index: 10;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#menu
+{
+    list-style-type: none;
+    line-height: 200%;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0px;
+}
+
+#menu > li
+{
+    display: inline-block;
+    border-right: 2px dotted #000;
+    padding-right: 20px;
+    padding-left: 20px;
+    opacity: 0.8;
+}
+
+#menu a
+{
+    text-decoration: none;
+    color: #efefef;
+}
+
+#menu > li:last-child
+{
+    border-right: none;
+}
+
+#menu > li:hover
+{
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+.images
+{
+    position: relative;
+    text-align: center;
+}
+
+.responsive
+{
+    max-width: 100%;
+    height: auto;
+}
+
+#buttons
+{
+    width: 100%;
+}
+
+#button1
+{
+    position: absolute;
+    top: 115%;
+    left: 40%;
+    font-size: 36px;
+    padding: 10px;
+    color: #000;
+}
+
+#button1:hover
+{
+    cursor: pointer;
+    color:peru;
+}
+
+#button2
+{
+    position: absolute;
+    top: 115%;
+    left: 45%;
+    font-size: 36px;
+    padding: 10px;
+    color: #000;
+}
+
+#button2:hover
+{
+    cursor: pointer;
+    color:peru;
+}
+
+#button3
+{
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    font-size: 36px;
+    padding: 10px;
+    color: #000;
+}
+
+#button3active
+{
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    font-size: 36px;
+    padding: 10px;
+    color: gold;
+}
+
+
+#button3:hover
+{
+    cursor: pointer;
+    color:peru;
+}
+
+#button4
+{
+    position: absolute;
+    top: 115%;
+    left: 55%;
+    font-size: 36px;
+    padding: 10px;
+    color: #000;
+}
+
+#button4:hover
+{
+    cursor: pointer;
+    color:peru;
+}
+
+#button5
+{
+    position: absolute;
+    top: 115%;
+    left: 60%;
+    font-size: 36px;
+    padding: 10px;
+    color: #000;
+}
+
+#button5:hover
+{
+    cursor: pointer;
+    color:peru;
+}
+
+#button6
+{
+    position: absolute;
+    top: 115%;
+    left: 65%;
+    font-size: 36px;
+    padding: 10px;
+    color: #000;
+}
+
+#button6:hover
+{
+    cursor: pointer;
+    color:peru;
+}
+
+#firstrow
+{
+    width: 100%;
+    text-align: center;
+}
+
+#secondrow
+{
+    width: 100%;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.CarLogo
+{
+    display: inline-block;
+}
+
+figure
+{
+    padding: 0;
+    margin: 55px;
+    text-align: center;
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+}
+
+figure:hover
+{
+    opacity: 1.0;
+    transform: scale(1.1);
+}
+
+figcaption
+{
+    text-align: center;
+    letter-spacing: 3px;
+}
