@@ -2,7 +2,7 @@
 <html lang="pl">
     <head>
         <meta charset="utf-8">
-        <title>Samochody marek premium</title>
+        <title>Samochody marek premium - opisy, historia</title>
         <link href="style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,8 +11,10 @@
 		src="https://code.jquery.com/jquery-3.6.0.js"
 		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
 		crossorigin="anonymous"></script>
+        <script src="jquery.scrollTo.min.js"></script>
     </head>
     <body onload="Changeslide()">
+        <a href="#" class="scrollup"></a>
         <header>
             <h1 class="logo">Samochody marek premium</h1>
             <nav id="topnav">
@@ -80,9 +82,53 @@
                         </div>
                     </div>
                 </section>
+                <section class="newest">
+                    <header>
+                        <h2>Najnowsze premiery</h2>
+                        <p class="headline">Poniżej przedstawione są 3 najnowsze premiery samochodów w ostatnim czasie - o nowościach informuję również na swoim Twitterze.</p>
+                    </header>
+                    <div class="new">
+                        <div class="newcarimg"><img src="img/bmwx1.jpg"/></div>
+                        <div class="newtxt">
+                            <h3 class="newcartitle">BMW X1</h3>
+                            <p>BMW X1 drugiej generacji (oznaczenie producenta: F48) zostało oficjalnie zaprezentowane podczas targów IAA we Frankfurcie w 2015 roku, a 4 lata później przeszło lifting. Najmniejszy SUV z Monachium z powodzeniem sprawdzi się w roli auta rodzinnego, ponieważ ma całkiem przestronne i pakowne wnętrze oraz oferuje sporo funkcjonalnych rozwiązań.</p>
+                        </div>
+                    </div>
+                    <div class="new">
+                        <div class="newcarimg"><img src="img/audiq4.jpg"/></div>
+                        <div class="newtxt">
+                            <h3 class="newcartitle">Audi Q4 E-tron</h3>
+                            <p>Eksperci Audi przedstawiali najnowszy model jako bardzo przestronne auto dla typowego gospodarstwa domowego. Chwalono się bagażnikiem, pomysłowymi uchwytami na butelki i ogromnymi schowkami w kabinie. Jak widać, nawet w segmencie premium można szczycić się dość banalnymi (ale jakże ważnymi na co dzień) cechami samochodu.</p>
+                        </div>
+                    </div>
+                    <div class="new">
+                        <div class="newcarimg"><img src="img/mercedesw206.jpg"/></div>
+                        <div class="newtxt">
+                            <h3 class="newcartitle">Mercedes C-class W206</h3>
+                            <p>Nowa Klasa C to uosobienie sportowego luksusu w jego najnowocześniejszej formie. Dynamiczne proporcje, wydłużony rozstaw osi i szeroki rozstaw kół to zdecydowany krok naprzód. Wnętrze również zachwyca innowacyjnymi akcentami z nowej Klasy S i nowoczesnym językiem designu.</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="support">
+                    <header>
+                        <h2 style="text-align: center;">Zostań patronem!</h2>
+                        <p class="headline2">Interesujesz się branżą motoryzacyjną? Chcesz być informowany na bieżąco o wszelkich nowinkach ze świata? Dołącz do grona patronów i pomóż nam rozwijać portal!</p>
+                    </header>
+                    <a href="https://www.facebook.com/Kacper36" class="bluebutton">Nawiązanie współpracy</a>
+                </section>
+                <section>
+                    <footer>
+                        <div id="footer">Wszelkie prawa zastrzeżone &copy; 2021. Dziękuję za wizytę!</div>
+                    </footer>
+                </section>
             </article>
 
         </main>
+        <script
+		src="https://code.jquery.com/jquery-3.6.0.js"
+		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+		crossorigin="anonymous"></script>
+        <script src="jquery.scrollTo.min.js"></script>
         <script src="js.js"></script>
     </body>
 </html>
