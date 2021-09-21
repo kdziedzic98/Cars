@@ -5,12 +5,24 @@ body
     font-size: 28px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.scrollup
+{
+    width: 64px;
+    height: 64px;
+    text-decoration: none;;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 20;
+    background-image: url("img/up.png");
+    display: none;
 }
 
 
@@ -19,8 +31,6 @@ h1.logo
 {
     text-align: center;
     font-weight: 700;
-    margin-top: 50px;
-    margin-bottom: 30px;
     letter-spacing: 3px;
     color: #ddd;
     text-transform: uppercase;
@@ -94,7 +104,7 @@ h1.logo
 #button1
 {
     position: absolute;
-    top: 115%;
+    top: 117%;
     left: 40%;
     font-size: 36px;
     padding: 10px;
@@ -110,7 +120,7 @@ h1.logo
 #button2
 {
     position: absolute;
-    top: 115%;
+    top: 117%;
     left: 45%;
     font-size: 36px;
     padding: 10px;
@@ -126,7 +136,7 @@ h1.logo
 #button3
 {
     position: absolute;
-    top: 115%;
+    top: 117%;
     left: 50%;
     font-size: 36px;
     padding: 10px;
@@ -136,7 +146,7 @@ h1.logo
 #button3active
 {
     position: absolute;
-    top: 115%;
+    top: 117%;
     left: 50%;
     font-size: 36px;
     padding: 10px;
@@ -153,7 +163,7 @@ h1.logo
 #button4
 {
     position: absolute;
-    top: 115%;
+    top: 117%;
     left: 55%;
     font-size: 36px;
     padding: 10px;
@@ -169,7 +179,7 @@ h1.logo
 #button5
 {
     position: absolute;
-    top: 115%;
+    top: 117%;
     left: 60%;
     font-size: 36px;
     padding: 10px;
@@ -185,7 +195,7 @@ h1.logo
 #button6
 {
     position: absolute;
-    top: 115%;
+    top: 117%;
     left: 65%;
     font-size: 36px;
     padding: 10px;
@@ -208,7 +218,6 @@ h1.logo
 {
     width: 100%;
     text-align: center;
-    margin-left: 100px;
 }
 
 .CarLogo
@@ -221,7 +230,7 @@ figure
     padding: 0;
     margin: 55px;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.7;
     transition: all 0.2s ease-in-out;
 }
 
@@ -235,4 +244,124 @@ figcaption
 {
     text-align: center;
     letter-spacing: 3px;
+}
+
+.newest
+{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+	padding-bottom: 20px;
+    width: 100%;
+}
+
+h2
+{
+    letter-spacing: 3px;
+}
+
+.headline
+{
+    font-size: 20px;
+    color:aliceblue;
+    margin-bottom: 60px;
+}
+
+.new
+{
+    background-color: #333;
+    border-radius: 5px;
+    text-align: justify;
+    margin-top: 30px;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newcarimg
+{
+    display: inline-block;
+    margin-right: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 180px;
+}
+
+.newcarimg img
+{
+    height: 100px;
+    width: 179px;
+}
+
+.newtxt
+{
+    display: inline-block;
+    width: 750px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+h3.newcartitle
+{
+    font-size: 24px;
+    color:orange;
+    text-align: justify;
+    font-weight: 700;
+}
+
+.support
+{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+	padding-bottom: 80px;
+    width: 1000px;
+    text-align: center;
+}
+
+.headline2
+{
+    font-size: 20px;
+    color:aliceblue;
+    padding: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.bluebutton
+{   
+    background-color: cornflowerblue;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #efefef;
+    opacity: 1.0;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.bluebutton:hover
+{
+    opacity: 0.9;
+}
+
+.bluebutton:visited
+{
+    color: #efefef;
+}
+
+#footer
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    width: 1000px;
 }
