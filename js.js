@@ -11,6 +11,22 @@ let number = Math.floor(Math.random()*6)+1;
 let timer1 = 0;
 let timer2 = 0;
 
+jQuery(function($){
+
+    //reset scrolla
+    $.scrollTo(0);
+
+    $('.scrollup').click(function() { $.scrollTo($('body'), 1000); });	
+});
+
+//pokazywanie podczas przewijania
+$(window).scroll(function()
+{
+    if ($(this).scrollTop()>300) $('.scrollup').fadeIn(500);
+    else $('.scrollup').fadeOut();
+}
+);
+
 function SetPicture(nrPicture)
 {
     clearTimeout(timer1);
@@ -40,6 +56,8 @@ function Changeslide()
     let imgs = document.querySelector('.images');
     imgs.innerHTML = pictures;
     $(".images").fadeIn(1000);
+
+
     
     
 
@@ -47,5 +65,3 @@ function Changeslide()
     timer2 = setTimeout("hidePicture()",9500);
 
 }
-
-
